@@ -1,0 +1,9 @@
+"3.9 (created: 2015/02/15 15:49:05)
+
+nnoremap j 2j
+nnoremap k 2k
+set gui=nonavigation
+set focuscontent
+source! /home/hiroshi/.vimperatorrc.local
+
+" vim: set ft=vimperator:

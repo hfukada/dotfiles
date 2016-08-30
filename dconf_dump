@@ -1,0 +1,185 @@
+[org/xfce/mousepad/preferences/view]
+indent-width=-1
+show-line-marks=false
+highlight-current-line=false
+word-wrap=false
+show-right-margin=false
+font-name='Monospace'
+color-scheme='[Invalid UTF-8]'
+show-line-numbers=false
+insert-spaces=false
+match-braces=false
+indent-on-tab=true
+right-margin-position=80
+show-line-endings=false
+tab-width=8
+show-whitespace=false
+smart-home-end='disabled'
+auto-indent=false
+
+[org/xfce/mousepad/preferences/window]
+menubar-visible=true
+
+[org/xfce/mousepad/state/window]
+width=1140
+fullscreen=false
+maximized=false
+height=697
+
+[org/gnome/settings-daemon/plugins/power]
+sleep-inactive-battery-type='nothing'
+sleep-inactive-ac-timeout=3600
+sleep-inactive-ac-type='nothing'
+sleep-inactive-battery-timeout=1800
+
+[org/gnome/settings-daemon/plugins/media-keys]
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/']
+screensaver=''
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2]
+binding='<Super>Return'
+command='gnome-terminal'
+name='term'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1]
+binding='<Primary><Super>Down'
+command='xbacklight -10'
+name='backlight-'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0]
+binding='<Primary><Super>Up'
+command='xbacklight +10'
+name='backlight+'
+
+[org/gnome/settings-daemon/plugins/xsettings]
+overrides={'Gtk/ShellShowsAppMenu': <0>}
+
+[org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
+foreground-color='rgb(131,148,150)'
+palette=['rgb(0,0,0)', 'rgb(204,0,0)', 'rgb(78,154,6)', 'rgb(196,160,0)', 'rgb(52,101,164)', 'rgb(117,80,123)', 'rgb(6,152,154)', 'rgb(211,215,207)', 'rgb(85,87,83)', 'rgb(239,41,41)', 'rgb(138,226,52)', 'rgb(252,233,79)', 'rgb(114,159,207)', 'rgb(173,127,168)', 'rgb(52,226,226)', 'rgb(238,238,236)']
+use-system-font=false
+use-theme-colors=false
+font='Inconsolata 16'
+background-color='rgb(0,43,54)'
+scrollbar-policy='never'
+audible-bell=false
+
+[org/gnome/terminal/legacy]
+schema-version=uint32 3
+theme-variant='dark'
+default-show-menubar=false
+
+[org/gnome/file-roller/listing]
+sort-method='name'
+name-column-width=250
+sort-type='ascending'
+list-mode='as-folder'
+show-path=false
+
+[org/gnome/file-roller/ui]
+sidebar-width=200
+window-height=480
+window-width=600
+
+[org/gnome/mutter/keybindings]
+toggle-tiled-right=['<Super>Right']
+toggle-tiled-left=['<Super>Left']
+
+[org/gnome/evolution-data-server]
+migrated=true
+
+[org/gnome/desktop/interface]
+scaling-factor=uint32 1
+gtk-im-module='gtk-im-context-simple'
+icon-theme='Numix-Square'
+gtk-theme='Numix-Frost'
+
+[org/gnome/desktop/notifications]
+application-children=['org-gnome-nautilus']
+
+[org/gnome/desktop/notifications/application/org-gnome-nautilus]
+application-id='org.gnome.Nautilus.desktop'
+
+[org/gnome/desktop/peripherals/touchscreens/03eb:8a0c]
+display=['SHP', 'LQ133T1JW14', '0x00000000']
+
+[org/gnome/desktop/session]
+idle-delay=uint32 900
+
+[org/gnome/desktop/privacy]
+recent-files-max-age=7
+
+[org/gnome/desktop/wm/preferences]
+resize-with-right-button=true
+focus-mode='sloppy'
+
+[org/gnome/desktop/wm/keybindings]
+switch-windows-backward=['<Shift><Alt>Tab']
+close=['<Super>d']
+switch-to-workspace-1=['<Super>1']
+move-to-workspace-1=['<Shift><Super>exclam']
+move-to-workspace-2=['<Shift><Super>at']
+move-to-workspace-3=['<Shift><Super>numbersign']
+move-to-workspace-4=['<Shift><Super>dollar']
+switch-to-workspace-3=['<Super>3']
+panel-main-menu=@as []
+switch-to-workspace-2=['<Super>2']
+switch-to-workspace-4=['<Super>4']
+switch-windows=@as []
+minimize=@as []
+
+[org/gnome/desktop/background]
+picture-uri='file:///home/hiroshi/Firefox_wallpaper.png'
+primary-color='#02023c3c8888'
+picture-options='stretched'
+
+[org/gnome/desktop/input-sources]
+sources=[('xkb', 'us')]
+xkb-options=@as []
+
+[org/gnome/shell]
+command-history=['dconf-editor', 'r', 'dconf-editor', 'keepass']
+enabled-extensions=['shellshape@gfxmonk.net']
+favorite-apps=['org.gnome.Nautilus.desktop', 'firefox.desktop']
+
+[org/gnome/shell/keybindings]
+toggle-message-tray=@as []
+toggle-overview=@as []
+toggle-application-view=@as []
+focus-active-notification=@as []
+
+[org/gnome/shell/extensions/net/gfxmonk/shellshape/keybindings]
+move-window-workspace-up=['<Mod4><Shift>m']
+move-window-workspace-down=['<Mod4><Shift>n']
+switch-workspace-up=['<Mod4>m']
+switch-workspace-down=['<Mod4>n']
+
+[org/gnome/shell/extensions/net/gfxmonk/shellshape/prefs]
+default-layout='floating'
+tile-padding=5
+screen-padding=6
+
+[org/gtk/settings/file-chooser]
+sort-column='modified'
+sidebar-width=155
+window-position=(545, 399)
+show-size-column=true
+show-hidden=false
+window-size=(830, 622)
+sort-directories-first=false
+date-format='regular'
+sort-order='descending'
+location-mode='path-bar'
+
+[apps/light-locker]
+late-locking=false
+lock-after-screensaver=uint32 5
+lock-on-suspend=true
+
+[ca/desrt/dconf-editor]
+saved-view='/org/gnome/desktop/wm/preferences/'
+show-warning=false
+window-is-fullscreen=false
+window-height=1059
+window-width=1569
+window-is-maximized=false
